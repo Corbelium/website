@@ -473,100 +473,6 @@ h6,
 #msg-box8-w p {
   color: #fff;
 }
-
-#menu-g .hide-buttons .nav-btn {
-  display: none !important;
-}
-#menu-g .navbar-caption {
-  color: #ffffff;
-}
-#menu-g .navbar-toggler {
-  color: #000000;
-}
-#menu-g .link,
-#menu-g .dropdown-item {
-  color: #000000;
-}
-#menu-g .link {
-  font-size: 0.95rem;
-}
-#menu-g .dropdown-item,
-#menu-g .nav-dropdown-sm .link {
-  font-size: 1.029rem;
-}
-#menu-g .link:hover,
-#menu-g .dropdown-item:hover,
-#menu-g .link:focus,
-#menu-g .dropdown-item:focus {
-  color: #671cdf;
-}
-#menu-g .link[aria-expanded="true"],
-#menu-g .dropdown-menu {
-  background: #ff9f3a;
-}
-#menu-g .nav-dropdown-sm .link:focus,
-#menu-g .nav-dropdown-sm .link:hover,
-#menu-g .nav-dropdown-sm .dropdown-item:focus,
-#menu-g .nav-dropdown-sm .dropdown-item:hover {
-  background: #ffb15e!important;
-}
-#menu-g .navbar,
-#menu-g .nav-dropdown-sm,
-#menu-g .nav-dropdown-sm .link[aria-expanded="true"],
-#menu-g .nav-dropdown-sm .dropdown-menu {
-  background: #ffb86d;
-}
-#menu-g .bg-color.transparent .link {
-  color: #000000;
-  transition: none;
-}
-#menu-g .bg-color.transparent.opened .link {
-  transition: color 0.2s ease-in-out;
-}
-#menu-g .bg-color.transparent.opened .link:hover,
-#menu-g .bg-color.transparent.opened .link:focus {
-  color: #671cdf;
-}
-#menu-g .link[aria-expanded="true"],
-#menu-g .dropdown-item[aria-expanded="true"] {
-  color: #671cdf!important;
-}
-#menu-g.mbr-navbar--stuck .mbr-navbar__section {
-  background: #2c2c2c;
-}
-#menu-g .mbr-navbar__hamburger {
-  color: #ffffff;
-}
-#menu-g .close-icon::before,
-#menu-g .close-icon::after {
-  background-color: #000000;
-}
-#header1-1 .mbr-section-title {
-  color: #000000;
-  font-size: 32px;
-}
-#header1-1 .mbr-section-lead {
-  color: #000000;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 23px;
-}
-#header3-d .mbr-section-title,
-#header3-d .mbr-section-subtitle {
-  text-align: center;
-}
-#features3-2 H4 {
-  font-size: 18px;
-}
-#header3-s .mbr-section-title,
-#header3-s .mbr-section-subtitle {
-  text-align: center;
-}
-#header3-s H3 {
-  font-size: 25px;
-}
-#form1-c .form-control-label {
-  color: #232323;
-}
 #ext_menu-14 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -761,4 +667,98 @@ h6,
 #msg-box8-1d .mbr-section-title,
 #msg-box8-1d p {
   color: #fff;
+}
+
+#menu-g .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu-g .navbar-caption {
+  color: #ffffff;
+}
+#menu-g .navbar-toggler {
+  color: #000000;
+}
+#menu-g .link,
+#menu-g .dropdown-item {
+  color: #000000;
+}
+#menu-g .link {
+  font-size: 0.95rem;
+}
+#menu-g .dropdown-item,
+#menu-g .nav-dropdown-sm .link {
+  font-size: 1.029rem;
+}
+#menu-g .link:hover,
+#menu-g .dropdown-item:hover,
+#menu-g .link:focus,
+#menu-g .dropdown-item:focus {
+  color: #671cdf;
+}
+#menu-g .link[aria-expanded="true"],
+#menu-g .dropdown-menu {
+  background: #ff9f3a;
+}
+#menu-g .nav-dropdown-sm .link:focus,
+#menu-g .nav-dropdown-sm .link:hover,
+#menu-g .nav-dropdown-sm .dropdown-item:focus,
+#menu-g .nav-dropdown-sm .dropdown-item:hover {
+  background: #ffb15e!important;
+}
+#menu-g .navbar,
+#menu-g .nav-dropdown-sm,
+#menu-g .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-g .nav-dropdown-sm .dropdown-menu {
+  background: #ffb86d;
+}
+#menu-g .bg-color.transparent .link {
+  color: #000000;
+  transition: none;
+}
+#menu-g .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu-g .bg-color.transparent.opened .link:hover,
+#menu-g .bg-color.transparent.opened .link:focus {
+  color: #671cdf;
+}
+#menu-g .link[aria-expanded="true"],
+#menu-g .dropdown-item[aria-expanded="true"] {
+  color: #671cdf!important;
+}
+#menu-g.mbr-navbar--stuck .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#menu-g .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#menu-g .close-icon::before,
+#menu-g .close-icon::after {
+  background-color: #000000;
+}
+#header1-1 .mbr-section-title {
+  color: #000000;
+  font-size: 32px;
+}
+#header1-1 .mbr-section-lead {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 23px;
+}
+#header3-d .mbr-section-title,
+#header3-d .mbr-section-subtitle {
+  text-align: center;
+}
+#features3-2 H4 {
+  font-size: 18px;
+}
+#header3-s .mbr-section-title,
+#header3-s .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-s H3 {
+  font-size: 25px;
+}
+#form1-c .form-control-label {
+  color: #232323;
 }
