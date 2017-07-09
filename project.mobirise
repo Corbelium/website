@@ -606,7 +606,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Services_Geotechnics.html\" aria-expanded=\"false\">SERVICES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"About.html\">ABOUT<br></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Landing_page.html#contacts1-j\">+44 203 290 0506</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Services.html\" aria-expanded=\"false\">SERVICES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"About.html\">ABOUT<br></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Landing_page.html#contacts1-j\">+44 203 290 0506</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_name": "header1",
@@ -957,7 +957,7 @@
           "title": "QUOTE",
           "subtitle": "Please provide us with your contact details and we will reach you for a quote",
           "form": {
-            "action": "welcome@corbelium.com",
+            "action": "victor.dubasaru@corbelium.com",
             "alerts": {
               "success": "Thanks for filling out form!"
             },
@@ -1154,7 +1154,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Landing_page.html\">MAIN PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">MAIN PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_styles": {
@@ -1201,13 +1201,6 @@
             "Theme"
           ],
           "_name": "content1",
-          "_anchor": "content1-1a",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text": "<div><br></div><div><span style=\"font-size: 1.07rem; line-height: 1.5;\">Our teams of architects, engineers and project managers have gathered extensive experience while working on multiple challenging projects. Our main services are presented below and our possibilities do not end there. We will devote all our energy to fulfil any of your requests.</span></div><div><span style=\"font-size: 1.07rem; line-height: 1.5;\"><br></span></div><div><b>ARCHITECTURE &amp; DESIGN</b></div><div><b>Architectural services</b></div><ul><li>Architectural design and drafting</li><li>Architectural graphic design</li><li>3D Architectural modelling and rendering</li><li>Architectural engineering</li><li>Architectural layering and detailing</li><li>Floor and space planning</li></ul><div><b><br></b></div><div><b style=\"line-height: 1.5;\">Interior design</b><br></div><ul><li>Interior design, choice of materials and colours</li><li>Interior design drawings</li><li>3D interior design modelling and rendering</li><li>Furniture design</li></ul><div><br></div><div><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Landscape</b></span></div><ul><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Landscape Design</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Landscape Design Drafting</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Landscape Design Rendering</span></li></ul><div><span style=\"font-size: 1.07rem; line-height: 1.5;\"><br></span></div><div><span style=\"font-size: 1.07rem; line-height: 1.5;\"><br></span></div><div><br></div><div><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>ENGINEERING</b></span></div><div><b>Structural engineering services</b></div><ul><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Structural concrete design</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Structural steel design</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Finite element modelling</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Finite element analysis</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Detail design</span></li></ul><div><br></div><div><b>Geotechnical engineering services</b></div><ul><li>Geological and geotechnical desk study</li><li>Geotechnical design report</li><li>Interpretation of ground investigation and laboratory testing</li><li>Finite element modelling and analysis (Plaxis)</li><li>Structure-soil interaction</li><li>Retaining wall design</li><li>Cofferdam design</li><li>Pile foundation design</li><li>Shallow foundation design</li><li>Anchor design</li><li>Deep excavation design and planning</li></ul><p><br></p><p><b>CAD services</b></p><ul><li>Paper to CAD Conversion</li><li>CAD Conversion</li><li>2D CAD drafting</li><li>3D CAD drafting</li><li>3D CAD Modelling Services</li></ul>",
           "_styles": {
             "DIV": {
               "font-size": "17px"
@@ -1215,7 +1208,14 @@
             "UL": {
               "font-size": "17px"
             }
-          }
+          },
+          "_anchor": "content1-1a",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<div><br></div><div><span style=\"font-size: 1.07rem; line-height: 1.5;\">Our teams of architects, engineers and project managers have gathered extensive experience while working on multiple challenging projects. Our main services are presented below and our possibilities do not end there. We will devote all our energy to fulfil any of your requests.</span></div><div><span style=\"font-size: 1.07rem; line-height: 1.5;\"><br></span></div><div><b>ARCHITECTURE &amp; DESIGN</b></div><div><b>Architectural services</b></div><ul><li>Architectural design and drafting</li><li>Architectural graphic design</li><li>3D Architectural modelling and rendering</li><li>Architectural engineering</li><li>Architectural layering and detailing</li><li>Floor and space planning</li></ul><div><b><br></b></div><div><b style=\"line-height: 1.5;\">Interior design</b><br></div><ul><li>Interior design, choice of materials and colours</li><li>Interior design drawings</li><li>3D interior design modelling and rendering</li><li>Furniture design</li></ul><div><br></div><div><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Landscape</b></span></div><ul><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Landscape Design</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Landscape Design Drafting</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Landscape Design Rendering</span></li></ul><div><span style=\"font-size: 1.07rem; line-height: 1.5;\"><br></span></div><div><span style=\"font-size: 1.07rem; line-height: 1.5;\"><br></span></div><div><br></div><div><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>ENGINEERING</b></span></div><div><b>Structural engineering services</b></div><ul><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Structural concrete design</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Structural steel design</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Finite element modelling</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Finite element analysis</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Detail design</span></li></ul><div><br></div><div><b>Geotechnical engineering services</b></div><ul><li>Geological and geotechnical desk study</li><li>Geotechnical design report</li><li>Interpretation of ground investigation and laboratory testing</li><li>Finite element modelling and analysis (Plaxis)</li><li>Structure-soil interaction</li><li>Retaining wall design</li><li>Cofferdam design</li><li>Pile foundation design</li><li>Shallow foundation design</li><li>Anchor design</li><li>Deep excavation design and planning</li></ul><p><br></p><p><b>CAD services</b></p><ul><li>Paper to CAD Conversion</li><li>CAD Conversion</li><li>2D CAD drafting</li><li>3D CAD drafting</li><li>3D CAD Modelling Services</li></ul>"
         },
         {
           "_tags": [
@@ -1246,7 +1246,7 @@
           "title": "QUOTE",
           "subtitle": "Please provide us with your contact details and we will reach you for a quote",
           "form": {
-            "action": "corbelium.adm@gmail.com",
+            "action": "victor.dubasaru@corbelium.com",
             "alerts": {
               "success": "Thanks for filling out form!"
             },
@@ -1384,7 +1384,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Landing_page.html\">MAIN PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">MAIN PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_styles": {
@@ -1431,13 +1431,6 @@
             "Theme"
           ],
           "_name": "content1",
-          "_anchor": "content1-1t",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text": "<div><span style=\"line-height: 1.5;\"><br></span></div><div><span style=\"line-height: 1.5;\">Architecture and Civil Engineering Outsourcing services can help design and construction firms reduce project costs and access better skills. With many years of experience working in the industry in the UK and Scandinavia we understand that outsourcing has come as a vital channel to the existence of many firms who want to reduce costs while improving quality and productivity.</span><br></div><div><span style=\"line-height: 1.5;\"><br></span></div><div><span style=\"line-height: 1.5;\">Corbelium is an innovative architectural and civil engineering firm focused on Architectural and Civil Engineering design, and CAD drawing.  We provide cost effective design, drafting and model-making services to our clients both locally and globally. Our talented Drafters, Designers, Architects and Engineers work intelligently and intensively to accomplish your needs.<br></span><br></div><div>Corbelium is specializing in meeting the engineering outsourcing needs of businesses across a wide range of industries including: residential, commercial and infrastructure designs.</div><div><br></div><div><br></div><div><b>Our vision</b></div><div><span style=\"line-height: 1.5;\">We focus on helping people succeed. The people who work for us, the people who engage with us, and the people who benefit from the projects we design.</span></div><div><span style=\"line-height: 1.5;\"><br></span></div><div><span style=\"line-height: 1.5;\"><b>Our mission</b></span></div><div><span style=\"line-height: 1.5;\">To become the first choice architecture and civil engineering outsourcing company with excellence and innovation.</span></div><div><span style=\"line-height: 1.5;\"><br></span></div><div><span style=\"line-height: 1.5;\"><br></span></div><div><span style=\"line-height: 1.5;\"><br></span></div><div><span style=\"line-height: 1.5;\"><br></span><br></div>",
           "_styles": {
             "DIV": {
               "font-size": "17px"
@@ -1445,7 +1438,14 @@
             "UL": {
               "font-size": "17px"
             }
-          }
+          },
+          "_anchor": "content1-1t",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<div><span style=\"line-height: 1.5;\"><br></span></div><div><span style=\"line-height: 1.5;\">Architecture and Civil Engineering Outsourcing services can help design and construction firms reduce project costs and access better skills. With many years of experience working in the industry in the UK and Scandinavia we understand that outsourcing has come as a vital channel to the existence of many firms who want to reduce costs while improving quality and productivity.</span><br></div><div><span style=\"line-height: 1.5;\"><br></span></div><div><span style=\"line-height: 1.5;\">Corbelium is an innovative architectural and civil engineering firm focused on Architectural and Civil Engineering design, and CAD drawing.  We provide cost effective design, drafting and model-making services to our clients both locally and globally. Our talented Drafters, Designers, Architects and Engineers work intelligently and intensively to accomplish your needs.<br></span><br></div><div>Corbelium is specializing in meeting the engineering outsourcing needs of businesses across a wide range of industries including: residential, commercial and infrastructure designs.</div><div><br></div><div><br></div><div><b>Our vision</b></div><div><span style=\"line-height: 1.5;\">We focus on helping people succeed. The people who work for us, the people who engage with us, and the people who benefit from the projects we design.</span></div><div><span style=\"line-height: 1.5;\"><br></span></div><div><span style=\"line-height: 1.5;\"><b>Our mission</b></span></div><div><span style=\"line-height: 1.5;\">To become the first choice architecture and civil engineering outsourcing company with excellence and innovation.</span></div><div><span style=\"line-height: 1.5;\"><br></span></div><div><span style=\"line-height: 1.5;\"><br></span></div><div><span style=\"line-height: 1.5;\"><br></span></div><div><span style=\"line-height: 1.5;\"><br></span><br></div>"
         }
       ]
     }
