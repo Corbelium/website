@@ -1143,7 +1143,7 @@
               "src": "@PROJECT_PATH@/assets/images/corbelium-logo-site-logo-837x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "Landing_page.html",
+              "link": "index.html",
               "title": "",
               "linkInNewWindow": false
             },
@@ -1373,7 +1373,7 @@
               "src": "@PROJECT_PATH@/assets/images/corbelium-logo-site-logo-837x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "Landing_page.html",
+              "link": "index.html",
               "title": "",
               "linkInNewWindow": false
             },
