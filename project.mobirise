@@ -524,10 +524,10 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#000000"
+              "color": "#5c5c5c"
             },
             ".link, .dropdown-item": {
-              "color": "#000000"
+              "color": "#5c5c5c"
             },
             ".link": {
               "font-size": "0.95rem"
@@ -548,7 +548,7 @@
               "background": "#ffb86d"
             },
             ".bg-color.transparent .link": {
-              "color": "#000000",
+              "color": "#5c5c5c",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -568,7 +568,7 @@
               "color": "#ffffff"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#000000"
+              "background-color": "#5c5c5c"
             }
           },
           "_tags": [
@@ -580,7 +580,7 @@
             "bgColor": "#ffb86d",
             "fontSize": "0.95",
             "fontName": {},
-            "fontColor": "#000000",
+            "fontColor": "#5c5c5c",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
             "sticky": true,
@@ -592,10 +592,10 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/corbelium-logo-site-logo-837x128.png",
+              "src": "@PROJECT_PATH@/assets/images/corbelium-logo-gray-small-618x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "Landing_page.html#contacts1-j",
+              "link": "index.html",
               "title": "",
               "linkInNewWindow": false
             },
@@ -621,6 +621,12 @@
               "font-family": "'Montserrat', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
               "font-size": "23px"
+            },
+            ".mbr-section-title SPAN": {
+              "color": "#5c5c5c"
+            },
+            ".mbr-section-lead SPAN": {
+              "color": "#5c5c5c"
             }
           },
           "_anchor": "header1-1",
@@ -643,7 +649,7 @@
             "showText": true,
             "showButtons": true
           },
-          "title": "<span style=\"line-height: 1.1;\">Professional</span><br><span style=\"line-height: 1.1;\"> Architectural and Civil Engineering </span><br><span style=\"line-height: 1.1;\">Outsourcing</span><br>",
+          "title": "<span style=\"line-height: 1.1;\">On-demand&nbsp;</span><span style=\"line-height: 1.1;\">Architecture and Civil Engineering </span><br><br>",
           "text": "<span style=\"font-style: normal; line-height: 1.5;\">We empower your business with enterprise-level outsourcing opportunities, access to a large pool of skills and considerable project cost reduction.</span><br><span style=\"font-style: normal;\"><br></span><span style=\"font-style: normal;\"><br></span>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"index.html#form1-c\" data-toolbar=\"-mbrBtnMove\">GET A QUOTE</a> "
         },
@@ -651,6 +657,9 @@
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
+            },
+            "SPAN": {
+              "color": "#5c5c5c"
             }
           },
           "_tags": [
@@ -674,7 +683,8 @@
           "_name": "features3",
           "_styles": {
             "H4": {
-              "font-size": "18px"
+              "font-size": "18px",
+              "color": "#5c5c5c"
             }
           },
           "_anchor": "features3-2",
@@ -808,7 +818,8 @@
               "text-align": "center"
             },
             "H3": {
-              "font-size": "25px"
+              "font-size": "25px",
+              "color": "#5c5c5c"
             }
           },
           "_tags": [
@@ -936,6 +947,9 @@
           "_styles": {
             ".form-control-label": {
               "color": "#232323"
+            },
+            ".mbr-section-title": {
+              "color": "#5c5c5c"
             }
           },
           "_anchor": "form1-c",
