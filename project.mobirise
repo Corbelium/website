@@ -19,19 +19,24 @@
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": true,
         "isRtl": false
-      }
+      },
+      "additionalSetColors": [
+        "#5c5c5c",
+        "#ffb86d"
+      ]
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 67,
-    "versionPublish": "3.12.1",
-    "favicon": "@PROJECT_PATH@/assets/images/corbelium-logo-favicon-128x146-1.png",
+    "uniqCompNum": 78,
+    "versionPublish": "4.3.0",
+    "favicon": "@PROJECT_PATH@/assets/images/corbelium-r-logo-128x170.png",
     "noImageResize": ""
   },
   "pages": {
     "Services_Architecture.html": {
       "settings": {
         "title": "Services - Architecture",
-        "meta_descr": "Services - Architecture"
+        "meta_descr": "Services - Architecture",
+        "order": 3
       },
       "components": [
         {
@@ -41,13 +46,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#323232",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Copyright (c) Corbelium 2017.&nbsp;All Rights Reserved"
         },
@@ -107,25 +112,29 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-12",
           "_params": {
-            "bgColor": "#b8312f",
-            "fontSize": 0.75,
-            "fontName": {},
-            "fontColor": "#000000",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": false,
             "logo": true,
             "showBrand": true,
+            "hideButtons": true,
+            "sticky": false,
             "collapsed": true,
-            "hideButtons": true
+            "transparent": true,
+            "bgColor": "#ffb86d",
+            "fontSize": 0.75,
+            "fontName": {
+              "name": "Montserrat",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "css": "'Montserrat', sans-serif"
+            },
+            "fontColor": "#5c5c5c",
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/corbelium-logo-small-background-v2-769x128.png",
+              "src": "@PROJECT_PATH@/assets/images/corbelium-8-upper-case-geo-587x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "Landing_page.html",
+              "link": "index.html",
               "title": "",
               "linkInNewWindow": false
             },
@@ -136,7 +145,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Landing_page.html\">MAIN PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">MAIN PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_styles": {
@@ -150,23 +159,23 @@
           "_name": "msg-box8",
           "_anchor": "msg-box8-w",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
             "paddingTop": 3,
             "paddingBottom": 3,
-            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
-            "bgColor": "#F2F2F2",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showText": true,
-            "showButton": false
+            "overlayOpacity": 0.5
           },
           "title": "Architectural Services",
           "text": "<p>We provide extensive services in Architecture</p>",
@@ -190,7 +199,8 @@
     "Services_Structural.html": {
       "settings": {
         "title": "Services - Structural",
-        "meta_descr": "Services - Structural"
+        "meta_descr": "Services - Structural",
+        "order": 4
       },
       "components": [
         {
@@ -200,13 +210,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#323232",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Copyright (c) Corbelium 2017.&nbsp;All Rights Reserved"
         },
@@ -266,25 +276,29 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-14",
           "_params": {
-            "bgColor": "#b8312f",
-            "fontSize": 0.75,
-            "fontName": {},
-            "fontColor": "#000000",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": false,
             "logo": true,
             "showBrand": true,
+            "hideButtons": true,
+            "sticky": false,
             "collapsed": true,
-            "hideButtons": true
+            "transparent": true,
+            "bgColor": "#ffb86d",
+            "fontSize": 0.75,
+            "fontName": {
+              "name": "Montserrat",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "css": "'Montserrat', sans-serif"
+            },
+            "fontColor": "#5c5c5c",
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/corbelium-logo-small-background-v2-769x128.png",
+              "src": "@PROJECT_PATH@/assets/images/corbelium-8-upper-case-geo-587x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "Landing_page.html",
+              "link": "index.html",
               "title": "",
               "linkInNewWindow": false
             },
@@ -295,7 +309,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Landing_page.html\">MAIN PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">MAIN PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_styles": {
@@ -309,23 +323,23 @@
           "_name": "msg-box8",
           "_anchor": "msg-box8-15",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
             "paddingTop": 3,
             "paddingBottom": 3,
-            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x1333.jpg",
-            "bgColor": "#F2F2F2",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showText": true,
-            "showButton": false
+            "overlayOpacity": 0.5
           },
           "title": "Structural Engineering Services",
           "text": "<p>We provide extensive services in Structural Engineering</p>",
@@ -349,7 +363,8 @@
     "Services_CAD.html": {
       "settings": {
         "title": "Services - CAD",
-        "meta_descr": "Services - CAD"
+        "meta_descr": "Services - CAD",
+        "order": 5
       },
       "components": [
         {
@@ -359,13 +374,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#323232",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Copyright (c) Corbelium 2017.&nbsp;All Rights Reserved"
         },
@@ -425,25 +440,29 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-1c",
           "_params": {
-            "bgColor": "#b8312f",
-            "fontSize": 0.75,
-            "fontName": {},
-            "fontColor": "#000000",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": false,
             "logo": true,
             "showBrand": true,
+            "hideButtons": true,
+            "sticky": false,
             "collapsed": true,
-            "hideButtons": true
+            "transparent": true,
+            "bgColor": "#ffb86d",
+            "fontSize": 0.75,
+            "fontName": {
+              "name": "Montserrat",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "css": "'Montserrat', sans-serif"
+            },
+            "fontColor": "#5c5c5c",
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/corbelium-logo-small-background-v2-769x128.png",
+              "src": "@PROJECT_PATH@/assets/images/corbelium-8-upper-case-geo-587x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "Services_CAD.html",
+              "link": "index.html",
               "title": "",
               "linkInNewWindow": false
             },
@@ -454,7 +473,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Landing_page.html\">MAIN PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">MAIN PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_styles": {
@@ -468,23 +487,23 @@
           "_name": "msg-box8",
           "_anchor": "msg-box8-1d",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
             "paddingTop": 3,
             "paddingBottom": 3,
-            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/blueprint-2000x1125.jpg",
-            "bgColor": "#F2F2F2",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showText": true,
-            "showButton": false
+            "overlayOpacity": 0.5
           },
           "title": "CAD Services",
           "text": "<p>We provide extensive services in CAD</p>",
@@ -527,7 +546,9 @@
               "color": "#5c5c5c"
             },
             ".link, .dropdown-item": {
-              "color": "#5c5c5c"
+              "color": "#5c5c5c",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-family": "'Montserrat', sans-serif"
             },
             ".link": {
               "font-size": "0.95rem"
@@ -577,27 +598,30 @@
           "_name": "menu",
           "_anchor": "menu-g",
           "_params": {
-            "bgColor": "#ffb86d",
-            "fontSize": "0.95",
-            "fontName": {},
-            "fontColor": "#5c5c5c",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
             "logo": true,
             "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
             "collapsed": true,
-            "hideButtons": true
+            "transparent": true,
+            "bgColor": "#ffb86d",
+            "fontSize": "0.95",
+            "fontName": {
+              "name": "Montserrat",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "css": "'Montserrat', sans-serif"
+            },
+            "fontColor": "#5c5c5c",
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/corbelium-logo-gray-small-618x128.png",
+              "src": "@PROJECT_PATH@/assets/images/corbelium-8-upper-case-geo-587x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
-              "title": "",
-              "linkInNewWindow": false
+              "title": ""
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -606,7 +630,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Services.html\" aria-expanded=\"false\">SERVICES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"About.html\">ABOUT<br></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://medium.com/corbelium\" target=\"_blank\">BLOG</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Landing_page.html#contacts1-j\">+44 203 290 0506</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-d\" aria-expanded=\"false\">SERVICES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content5-25\">ABOUT<br></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Landing_page.html#contacts1-j\">+44 203 290 0506</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_name": "header1",
@@ -620,38 +644,80 @@
               "color": "#000000",
               "font-family": "'Montserrat', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-              "font-size": "23px"
+              "font-size": "9px"
             },
             ".mbr-section-title SPAN": {
-              "color": "#5c5c5c"
+              "color": "#5c5c5c",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "30px"
             },
             ".mbr-section-lead SPAN": {
-              "color": "#5c5c5c"
+              "color": "#5c5c5c",
+              "font-size": "22px",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            ".btn": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
             }
           },
           "_anchor": "header1-1",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
             "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/main-picture-2000x1333.jpg",
-            "bgColor": "#a07e49",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#a07e49",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "contentAlign": "center",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true
+            "overlayOpacity": 0.5
           },
-          "title": "<span style=\"line-height: 1.1;\">On-demand&nbsp;</span><span style=\"line-height: 1.1;\">Architecture and Civil Engineering </span><br><br>",
-          "text": "<span style=\"font-style: normal; line-height: 1.5;\">We empower your business with enterprise-level outsourcing opportunities, access to a large pool of skills and considerable project cost reduction.</span><br><span style=\"font-style: normal;\"><br></span><span style=\"font-style: normal;\"><br></span>",
+          "title": "<span style=\"line-height: 1.1;\"><span style=\"font-weight: normal;\">On-demand&nbsp;</span></span><span style=\"line-height: 1.1;\"><span style=\"font-weight: normal;\">Geotechnical Expertise&nbsp;</span></span><br>",
+          "text": "<br><span style=\"font-style: normal; line-height: 1.5;\">We empower your business with professional geotechnical design services. </span><br><span style=\"font-style: normal; line-height: 1.5;\">Our engineers have gathered extensive experience in the industry</span><br><span style=\"font-style: normal; line-height: 1.5;\"><br></span><span style=\"font-style: normal;\"><br></span><span style=\"font-style: normal;\"><br></span>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"index.html#form1-c\" data-toolbar=\"-mbrBtnMove\">GET A QUOTE</a> "
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showCaption": true,
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/crane-jpg-2000x856.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5
+          },
+          "title": "About Us",
+          "caption": "<p>Corbelium is an innovative geotechnical consultancy that provides a wide variety of expertise and techniques ranging from the identification of ground related risks to the design of heavy foundations and the study of soil-structure interactions. Our highly skilled and talented Engineers and Drafters work intelligently and intensively to accomplish our client's needs. \n</p><p>\n<span style=\"font-size: 1.07rem;\">With many years of experience working in the industry in the UK and EU we provide cost effective design, finite element modelling and drafting services to our clients both locally and globally.&nbsp;</span></p><p>\n<span style=\"font-size: 1.07rem;\"><b>Our vision:</b> \"to make the needs of our clients the focus of our business, utilising specialist skills to develop innovative client-orientated solutions\"</span></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-25"
         },
         {
           "_styles": {
@@ -660,6 +726,10 @@
             },
             "SPAN": {
               "color": "#5c5c5c"
+            },
+            ".mbr-section-title SPAN": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
             }
           },
           "_tags": [
@@ -668,10 +738,10 @@
           "_name": "header3",
           "_anchor": "header3-d",
           "_params": {
+            "showMeta": true,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#fff",
-            "showMeta": true
+            "bgColor": "#fff"
           },
           "title": "<span style=\"font-weight: normal;\"><br></span><br><span style=\"font-weight: normal;\">SERVICES</span>",
           "meta": ""
@@ -684,95 +754,103 @@
           "_styles": {
             "H4": {
               "font-size": "18px",
-              "color": "#5c5c5c"
+              "color": "#5c5c5c",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            "SPAN": {
+              "font-size": "16px"
+            },
+            "P": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "15px",
+              "color": "#5c5c5c",
+              "text-align": "center"
             }
           },
           "_anchor": "features3-2",
           "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": 4,
             "showImages": true,
             "showTitles": true,
             "showSubtitles": false,
-            "ShowTexts": false,
-            "showButtons": false
+            "ShowTexts": true,
+            "showButtons": false,
+            "paddingTop": "0",
+            "paddingBottom": "2",
+            "columns": "4",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/architectural-services-600x400.jpg",
+              "src": "@PROJECT_PATH@/assets/images/gi-600x390.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
               "link": "",
               "alt": "",
-              "title": "",
-              "linkInNewWindow": false
+              "title": ""
             }
           },
-          "title1": "Architectural Services",
+          "title1": "Ground investigation interpretation",
           "subtitle1": "",
-          "caption1": "",
+          "caption1": "We interpret desk studies and site investigation data to determine ground conditions and material parameters relevant to the design. We have experience working with&nbsp;complex geology and ground conditions, including geological faults, drift-filled hollows, sites with turbulent history - with docks in continuous development and WW2 unexploded ordnances.<br>",
           "button1": "<a data-app-btn=\"true\" href=\"Services_Architecture.html\" class=\"btn btn-danger\" data-toolbar=\"-mbrBtnMove\">MORE DETAILS</a>",
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/structural-600x400.jpg",
+              "src": "@PROJECT_PATH@/assets/images/pile-design-600x390.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
               "link": "",
               "alt": "",
-              "title": "",
-              "linkInNewWindow": false
+              "title": ""
             }
           },
-          "title2": "Structural Engineering Services",
+          "title2": "Bearing pile design",
           "subtitle2": "",
-          "caption2": "",
+          "caption2": "Our engineers design auger bored and CFA piles in complex ground conditions. The design can cover compression and tension capacities.&nbsp;We have designed&nbsp;a large variety of deep foundations on demanding sites, such as docks and central London.&nbsp;Our designs are carried out in accordance with EC 7.<br>",
           "button2": "<a data-app-btn=\"true\" href=\"Services_Structural.html\" class=\"btn btn-danger\" data-toolbar=\"-mbrBtnMove\">MORE DETAILS</a>",
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/geotech-600x400.jpg",
+              "src": "@PROJECT_PATH@/assets/images/retaining-wall-600x390.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
               "link": "",
               "alt": "",
-              "title": "",
-              "linkInNewWindow": false
+              "title": ""
             }
           },
-          "title3": "Geotechnical Engineering Services",
+          "title3": "Retaining wall design",
           "subtitle3": "",
-          "caption3": "",
+          "caption3": "Corbelium engineers design several systems of retaining walls: sheet, secant and contiguous. Using Plaxis or Oasys Frew, we provide full analysis of the construction sequence for short and long term. We have designed retaining walls in dense urban environment, in close proximity to large buildings and in docks.&nbsp;Our design is carried out to the latest standard and codes.",
           "button3": "<a data-app-btn=\"true\" href=\"Services_Geotechnics.html\" class=\"btn btn-danger\" data-toolbar=\"-mbrBtnMove\">MORE DETAILS</a>",
           "media4": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/cad-edit-600x400.jpg",
+              "src": "@PROJECT_PATH@/assets/images/reclamation-cofferdam-600x390.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
               "link": "",
               "alt": "",
-              "title": "",
-              "linkInNewWindow": false
+              "title": ""
             }
           },
-          "title4": "CAD Services",
+          "title4": "Reclamation cofferdam design",
           "subtitle4": "",
-          "caption4": "",
+          "caption4": "We design a range of reclamation cofferdam systems, including sheet walls, double skin and combi wall. We check the sensitivity of the design on dewatering levels, assumed soil and structural parameters, structure-soil interface and tie location and stiffness.&nbsp;Our designs are carried out in accordance with EC 7.",
           "button4": "<a data-app-btn=\"true\" href=\"Services_CAD.html\" class=\"btn btn-danger\" data-toolbar=\"-mbrBtnMove\">MORE DETAILS</a>",
           "media5": {
             "image": {
@@ -800,6 +878,136 @@
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         },
         {
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": false,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "columns": "4",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/fem-1-600x390.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/settlement-600x390.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/damage-assessment-600x390.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/cad-600x390.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "2D and 3D FEM numerical modelling",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "We undertake FE analyses for a wide range of geotechnical structures with complex construction sequences, taking into consideration multiple load cases. We use Plaxis and Oasys package software intensively for the design of geotechnical structures, ground movement prediction, soil-structure interaction and damage assessments.",
+          "title2": "Ground movement prediction",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "Using FEM, we predict the movement of geotechnical structures, building settlement and their impact on nearby structures. For this, we use&nbsp;Plaxis and Oasys package software (Pdisp, Frew,&nbsp;GSRaft). Our design provides spring stiffnesses,&nbsp;movements nearby structures, strains, tunnel curvatures, settlement, ovalisation etc.<br>",
+          "title3": "Damage assessment",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Our engineers damage assessments for a wide variety of structures. We predict movements, strains and curvatures of structures and determine the potential damage using Burland’s method. We have assessed ground movement effects on assets belonging to London Underground and Thames Water; and listed structures protected by <br>English Heritage.&nbsp;<br>",
+          "title4": "Autocad drafting services",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "We&nbsp;can ensure that the projects\n<br>we undertake are all\n<br>completed perfectly. Also, we\n<br>can match the format, style\n<br>and layout of client's CAD\n<br>conversion project exactly.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-danger\" data-toolbar=\"-mbrBtnMove\">Examples of work</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-danger\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-danger\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-danger\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-1w",
+          "_styles": {
+            "H4": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "18px",
+              "color": "#5c5c5c"
+            },
+            "SPAN": {
+              "font-size": "17px"
+            },
+            "P": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "15px",
+              "color": "#5c5c5c"
+            }
+          }
+        },
+        {
           "_tags": [
             "Theme"
           ],
@@ -810,7 +1018,13 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"Services.html\" data-toolbar=\"-mbrBtnMove\">MORE DETAILS</a> "
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"assets/files/Portfolio%20of%20Victor%20Dubasaru.pdf\" data-toolbar=\"-mbrBtnMove\">MORE DETAILS</a> ",
+          "_styles": {
+            ".btn": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            }
+          }
         },
         {
           "_styles": {
@@ -820,6 +1034,14 @@
             "H3": {
               "font-size": "25px",
               "color": "#5c5c5c"
+            },
+            ".mbr-section-title": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            ".mbr-section-subtitle": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
             }
           },
           "_tags": [
@@ -828,13 +1050,13 @@
           "_name": "header3",
           "_anchor": "header3-s",
           "_params": {
+            "showMeta": true,
             "paddingTop": "2",
             "paddingBottom": "0",
-            "bgColor": "#d5f0ff",
-            "showMeta": true
+            "bgColor": "#d5f0ff"
           },
-          "title": "Our collaborators have gathered extensive experience in the construction industry",
-          "meta": "Below are presented examples of institutions and companies that our collaborators have been involved with throughout their career&nbsp;"
+          "title": "Our engineers have gathered extensive experience in geotechnics",
+          "meta": "Below are presented examples of institutions and companies that our engineers have been involved with throughout their career&nbsp;"
         },
         {
           "_inherit": "gallery1",
@@ -843,28 +1065,37 @@
           ],
           "_name": "gallery2",
           "_params": {
+            "showBullets": true,
+            "fullWidth": true,
+            "spacing": "3",
             "paddingTop": "0",
             "paddingBottom": "0",
+            "filterBgColor": false,
+            "bgColor": "#d5f0ff",
+            "showText": false,
+            "filter": false,
             "images": [
               {
                 "tags": "Awesome",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/imperial-college-london2-600x146-800x194.png",
-                "image": "@PROJECT_PATH@/assets/images/imperial-college-london2-600x146.png",
+                "thumb": "@PROJECT_PATH@/assets/images/imperial2-600x400-600x400.png",
+                "image": "@PROJECT_PATH@/assets/images/imperial2-600x400.png",
                 "caption": "Type caption here",
-                "active": true
+                "active": false,
+                "alt": ""
               },
               {
                 "tags": "Responsive",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/arup-logo-600x185-800x246.png",
-                "image": "@PROJECT_PATH@/assets/images/arup-logo-600x185.png",
+                "thumb": "@PROJECT_PATH@/assets/images/arup1-600x400-600x400.png",
+                "image": "@PROJECT_PATH@/assets/images/arup1-600x400.png",
                 "caption": "Type caption here",
-                "active": false
+                "active": true,
+                "alt": ""
               },
               {
                 "tags": "Animated",
@@ -926,14 +1157,7 @@
                 "caption": "Type caption here",
                 "active": false
               }
-            ],
-            "spacing": "2",
-            "showText": false,
-            "filter": false,
-            "bgColor": "#d5f0ff",
-            "filterBgColor": false,
-            "fullWidth": true,
-            "showBullets": true
+            ]
           },
           "_anchor": "gallery2-1g",
           "articleLayout": false,
@@ -946,27 +1170,33 @@
           "_name": "form1",
           "_styles": {
             ".form-control-label": {
-              "color": "#232323"
+              "color": "#5c5c5c"
             },
             ".mbr-section-title": {
-              "color": "#5c5c5c"
+              "color": "#5c5c5c",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            "SMALL": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
             }
           },
           "_anchor": "form1-c",
           "_params": {
-            "labelsColor": "#232323",
+            "showTitle": true,
+            "showSubTitle": true,
+            "labelsColor": "#5c5c5c",
             "paddingTop": "2",
             "paddingBottom": "2",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubTitle": true
+            "overlayOpacity": 0.5
           },
           "title": "QUOTE",
           "subtitle": "Please provide us with your contact details and we will reach you for a quote",
@@ -1009,22 +1239,22 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2e2e2e",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/corbelium-logo-small-background-v2-769x128.png",
+              "src": "@PROJECT_PATH@/assets/images/corbelium-r-logo-128x1703.png",
               "width": 128,
               "link": "",
               "alt": "",
               "title": "",
-              "linkInNewWindow": false
+              "active": true
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-contacts1",
@@ -1033,8 +1263,7 @@
               "family": "MobiriseIcons",
               "link": "",
               "size": 0,
-              "color": "",
-              "active": true
+              "color": ""
             }
           },
           "text1": "<strong>Address</strong><br>\n48a Whitbread Road<br>\nLondon, SE4 2BE<br>United Kingdom",
@@ -1048,13 +1277,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#323232",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Copyright (c) Corbelium 2017.&nbsp;All Rights Reserved"
         }
@@ -1063,7 +1292,8 @@
     "Services.html": {
       "settings": {
         "title": "Services",
-        "meta_descr": "Services"
+        "meta_descr": "Services",
+        "order": 2
       },
       "components": [
         {
@@ -1073,13 +1303,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#323232",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Copyright (c) Corbelium 2017.&nbsp;All Rights Reserved"
         },
@@ -1102,7 +1332,9 @@
               "background-color": "#000000"
             },
             ".link, .dropdown-item": {
-              "color": "#000000"
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "font-family": "'Noto Sans', sans-serif"
             },
             ".link": {
               "font-size": "0.75rem"
@@ -1139,27 +1371,30 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-18",
           "_params": {
-            "bgColor": "#b8312f",
-            "fontSize": 0.75,
-            "fontName": {},
-            "fontColor": "#000000",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": false,
             "logo": true,
             "showBrand": true,
+            "hideButtons": true,
+            "sticky": false,
             "collapsed": true,
-            "hideButtons": true
+            "transparent": true,
+            "bgColor": "#ffb86d",
+            "fontSize": 0.75,
+            "fontName": {
+              "name": "Montserrat",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "css": "'Montserrat', sans-serif"
+            },
+            "fontColor": "#5c5c5c",
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/corbelium-logo-site-logo-837x128.png",
+              "src": "@PROJECT_PATH@/assets/images/corbelium-8-upper-case-geo-587x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
-              "title": "",
-              "linkInNewWindow": false
+              "title": ""
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -1176,10 +1411,14 @@
               "color": "#fff"
             },
             ".mbr-section-title": {
-              "color": "#000000"
+              "color": "#5c5c5c",
+              "font-family": "'Noto Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700"
             },
             ".lead P": {
-              "color": "#000000"
+              "color": "#000000",
+              "font-family": "'Noto Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700"
             }
           },
           "_tags": [
@@ -1188,26 +1427,26 @@
           "_name": "msg-box8",
           "_anchor": "msg-box8-19",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "parallax": true,
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "paddingTop": "3",
+            "paddingBottom": "5",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/engineering-team-hard-at-work-photo-credit-the-muse-1-2000x870.jpg",
-            "bgColor": "#F2F2F2",
+            "bgImage": "@PROJECT_PATH@/assets/images/construction-site-2438829-1920-1920x950.jpg",
+            "parallax": false,
             "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "showTitle": true,
-            "showText": true,
-            "showButton": false
+            "overlayColor": "#ffffff",
+            "overlayOpacity": "0.7"
           },
           "title": "Services",
-          "text": "<p><b>We provide extensive services in Architecture, Structural and Geotechnical Engineering</b></p>",
+          "text": "<p><b>We provide extensive design services in Geotechnical Engineering</b></p>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
         },
         {
@@ -1229,7 +1468,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<div><br></div><div><span style=\"font-size: 1.07rem; line-height: 1.5;\">Our teams of architects, engineers and project managers have gathered extensive experience while working on multiple challenging projects. Our main services are presented below and our possibilities do not end there. We will devote all our energy to fulfil any of your requests.</span></div><div><span style=\"font-size: 1.07rem; line-height: 1.5;\"><br></span></div><div><b>ARCHITECTURE &amp; DESIGN</b></div><div><b>Architectural services</b></div><ul><li>Architectural design and drafting</li><li>Architectural graphic design</li><li>3D Architectural modelling and rendering</li><li>Architectural engineering</li><li>Architectural layering and detailing</li><li>Floor and space planning</li></ul><div><b><br></b></div><div><b style=\"line-height: 1.5;\">Interior design</b></div><ul><li><span style=\"line-height: 1.5;\">Interior design, choice of materials and colours</span></li><li>Interior design drawings</li><li>3D interior design modelling and rendering</li><li>Furniture design</li></ul><div><br></div><div><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Landscape</b></span></div><ul><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Landscape Design</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Landscape Design Drafting</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Landscape Design Rendering</span></li></ul><div><span style=\"font-size: 1.07rem; line-height: 1.5;\"><br></span></div><div><span style=\"font-size: 1.07rem; line-height: 1.5;\"><br></span></div><div><br></div><div><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>ENGINEERING</b></span></div><div><b>Structural engineering services</b></div><ul><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Structural concrete design</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Structural steel design</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Finite element modelling</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Finite element analysis</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Detail design</span></li></ul><div><br></div><div><b>Geotechnical engineering services</b></div><ul><li>Geological and geotechnical desk study</li><li>Geotechnical design report</li><li>Interpretation of ground investigation and laboratory testing</li><li>Finite element modelling and analysis (Plaxis)</li><li>Structure-soil interaction</li><li>Retaining wall design</li><li>Cofferdam design</li><li>Pile foundation design</li><li>Shallow foundation design</li><li>Anchor design</li><li>Deep excavation design and planning</li></ul><p><br></p><p><b>CAD services</b></p><ul><li>Paper to CAD Conversion</li><li>CAD Conversion</li><li>2D CAD drafting</li><li>3D CAD drafting</li><li>3D CAD Modelling Services</li></ul>"
+          "text": "<div><br></div><div><span style=\"font-size: 1.07rem; line-height: 1.5;\">Our engineers have gathered extensive experience while working on multiple challenging projects. Our main services are presented below and our possibilities do not end there. We will devote all our energy to fulfill any of your requests.</span></div><div><span style=\"font-size: 1.07rem; line-height: 1.5;\"><br></span></div><div><br></div><div><b>2D and 3D finite element modelling</b></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><b>Geotechnical engineering services</b></div><ul><li>Geological and geotechnical desk study</li><li>Geotechnical design report</li><li>Interpretation of ground investigation and laboratory testing</li><li>Finite element modelling and analysis (Plaxis)</li><li>Structure-soil interaction</li><li>Retaining wall design</li><li>Cofferdam design</li><li>Pile foundation design</li><li>Shallow foundation design</li><li>Anchor design</li><li>Deep excavation design and planning</li></ul><p><br></p><p><br></p>"
         },
         {
           "_tags": [
@@ -1243,19 +1482,19 @@
           },
           "_anchor": "form1-1h",
           "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
             "labelsColor": "#232323",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubTitle": true
+            "overlayOpacity": 0.5
           },
           "title": "QUOTE",
           "subtitle": "Please provide us with your contact details and we will reach you for a quote",
@@ -1293,7 +1532,8 @@
     "About.html": {
       "settings": {
         "title": "About Us",
-        "meta_descr": "About Us"
+        "meta_descr": "About Us",
+        "order": 6
       },
       "components": [
         {
@@ -1303,13 +1543,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#323232",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Copyright (c) Corbelium 2017.&nbsp;All Rights Reserved"
         },
@@ -1326,13 +1566,15 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#000000"
+              "color": "#5c5c5c"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#000000"
+              "background-color": "#5c5c5c"
             },
             ".link, .dropdown-item": {
-              "color": "#000000"
+              "color": "#5c5c5c",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-family": "'Montserrat', sans-serif"
             },
             ".link": {
               "font-size": "0.75rem"
@@ -1344,16 +1586,16 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#8f2625"
+              "background": "#ff9f3a"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#ac2e2c!important"
+              "background": "#ffb15e!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#b8312f"
+              "background": "#ffb86d"
             },
             ".bg-color.transparent .link": {
-              "color": "#000000",
+              "color": "#5c5c5c",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -1369,22 +1611,26 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-1r",
           "_params": {
-            "bgColor": "#b8312f",
-            "fontSize": 0.75,
-            "fontName": {},
-            "fontColor": "#000000",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": false,
             "logo": true,
             "showBrand": true,
+            "hideButtons": true,
+            "sticky": false,
             "collapsed": true,
-            "hideButtons": true
+            "transparent": true,
+            "bgColor": "#ffb86d",
+            "fontSize": 0.75,
+            "fontName": {
+              "name": "Montserrat",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "css": "'Montserrat', sans-serif"
+            },
+            "fontColor": "#5c5c5c",
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/corbelium-logo-site-logo-837x128.png",
+              "src": "@PROJECT_PATH@/assets/images/corbelium-8-upper-case-geo-587x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
@@ -1406,7 +1652,7 @@
               "color": "#fff"
             },
             ".mbr-section-title": {
-              "color": "#000000"
+              "color": "#5c5c5c"
             },
             ".lead P": {
               "color": "#000000"
@@ -1418,27 +1664,27 @@
           "_name": "msg-box8",
           "_anchor": "msg-box8-1s",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "parallax": true,
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "paddingTop": "5",
+            "paddingBottom": "5",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-6-2000x1333.jpg",
-            "bgColor": "#F2F2F2",
+            "bgImage": "@PROJECT_PATH@/assets/images/crane-jpg-2000x856.jpg",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "showTitle": true,
-            "showText": true,
-            "showButton": false
+            "overlayColor": "#ffffff",
+            "overlayOpacity": "0"
           },
           "title": "About Us",
           "text": "",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">SEE ALL TEMPLATES</a>"
         },
         {
           "_tags": [
@@ -1459,7 +1705,287 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<div><span style=\"line-height: 1.5;\"><br></span></div><div><span style=\"line-height: 1.5;\">Architecture and Civil Engineering Outsourcing services can help design and construction firms reduce project costs and access better skills. With many years of experience working in the industry in the UK and Scandinavia we understand that outsourcing has come as a vital channel to the existence of many firms who want to reduce costs while improving quality and productivity.</span><br></div><div><span style=\"line-height: 1.5;\"><br></span></div><div><span style=\"line-height: 1.5;\">Corbelium is an innovative architectural and civil engineering firm focused on Architectural and Civil Engineering design, and CAD drawing.  We provide cost effective design, drafting and model-making services to our clients both locally and globally. Our talented Drafters, Designers, Architects and Engineers work intelligently and intensively to accomplish your needs.<br></span><br></div><div>Corbelium is specializing in meeting the engineering outsourcing needs of businesses across a wide range of industries including: residential, commercial and infrastructure designs.</div><div><br></div><div><br></div><div><b>Our vision</b></div><div><span style=\"line-height: 1.5;\">We focus on helping people succeed. The people who work for us, the people who engage with us, and the people who benefit from the projects we design.</span></div><div><span style=\"line-height: 1.5;\"><br></span></div><div><span style=\"line-height: 1.5;\"><b>Our mission</b></span></div><div><span style=\"line-height: 1.5;\">To become the first choice architecture and civil engineering outsourcing company with excellence and innovation.</span></div><div><span style=\"line-height: 1.5;\"><br></span></div><div><span style=\"line-height: 1.5;\"><br></span></div><div><span style=\"line-height: 1.5;\"><br></span></div><div><span style=\"line-height: 1.5;\"><br></span><br></div>"
+          "text": "<div><br></div><div><span style=\"line-height: 1.5;\">Architecture and Civil Engineering Outsourcing services can help design and construction firms reduce project costs and access better skills. With many years of experience working in the industry in the UK and Scandinavia we understand that outsourcing has come as a vital channel to the existence of many firms who want to reduce costs while improving quality and productivity.</span><br></div><div><span style=\"line-height: 1.5;\"><br></span></div><div><span style=\"line-height: 1.5;\"><i><b>!!!in the geotechnical sector covers a wide variety of expertise and techniques ranging from the identification of ground related risk to the design of heavy foundations and tunnelling and expert witness and forensic engineering services.</b></i></span></div><div><span style=\"line-height: 1.5;\"><i><b>is a firm ofconsulting geotechnical engineers which advises constructors in the design of geotechnical structures and thestudy of soil-structure interactions.</b></i></span></div><div><span style=\"line-height: 1.5;\"><br></span></div><div><span style=\"line-height: 1.5;\">Corbelium is an innovative architectural and civil engineering firm focused on Architectural and Civil Engineering design, and CAD drawing.  We provide cost effective design, drafting and model-making services to our clients both locally and globally. Our talented Drafters, Designers, Architects and Engineers work intelligently and intensively to accomplish your needs.<br></span><br></div><div>Corbelium is specializing in meeting the engineering outsourcing needs of businesses across a wide range of industries including: residential, commercial and infrastructure designs.</div><div><br></div><div><br></div><div><b>Our vision</b></div><div><span style=\"line-height: 1.5;\">We focus on helping people succeed. The people who work for us, the people who engage with us, and the people who benefit from the projects we design.</span></div><div><span style=\"line-height: 1.5;\"><br></span></div><div><span style=\"line-height: 1.5;\"><b>Our mission</b></span></div><div><span style=\"line-height: 1.5;\">To become the first choice architecture and civil engineering outsourcing company with excellence and innovation.</span></div><div><span style=\"line-height: 1.5;\"><br></span></div><div><span style=\"line-height: 1.5;\"><br></span></div><div><span style=\"line-height: 1.5;\"><br></span></div><div><span style=\"line-height: 1.5;\"><br></span><br></div>"
+        }
+      ]
+    },
+    "page6.html": {
+      "settings": {
+        "meta_descr": "Web Builder Description",
+        "title": "Finite element modelling",
+        "order": 1
+      },
+      "components": [
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools <a href=\"http://google.com/\">available</a> today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-20"
+        },
+        {
+          "_params": {
+            "showImages": true,
+            "showTitles": false,
+            "showSubtitles": false,
+            "ShowTexts": false,
+            "showButtons": false,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/table.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "Bootstrap 4",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-21"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text1": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools available today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>",
+          "text2": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools available today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_anchor": "content6-22"
+        },
+        {
+          "_name": "footer1",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) Corbelium 2017.&nbsp;All Rights Reserved",
+          "_anchor": "footer1-1x"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "ARTICLE HEADER",
+          "text": "<p>Article header with background image and parallax effect.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-1z"
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "font-family": "'Noto Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#ff9f3a"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#ffb15e!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffb86d"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#671cdf!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": false,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#ffb86d",
+            "fontSize": 0.75,
+            "fontName": {
+              "name": "Montserrat",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "css": "'Montserrat', sans-serif"
+            },
+            "fontColor": "#5c5c5c",
+            "fontHoverColor": "@primaryColor"
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/corbelium-8-upper-case-geo-587x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">MAIN PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "_anchor": "ext_menu-1y"
         }
       ]
     }
